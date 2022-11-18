@@ -1,0 +1,68 @@
+<RCC>
+  <qresource prefix="图标一">
+    <file>img/4250/10001.ico</file>
+    <file>img/4250/10002.ico</file>
+    <file>img/4250/10003.ico</file>
+    <file>img/4250/10004.ico</file>
+    <file>img/4250/10005.ico</file>
+    <file>img/4250/10006.ico</file>
+    <file>img/4250/10007.ico</file>
+    <file>img/4250/10008.ico</file>
+    <file>img/4250/10009.ico</file>
+    <file>img/4250/10010.ico</file>
+    <file>img/4250/10011.ico</file>
+  </qresource>
+  <qresource prefix="图标二">
+    <file>img/4987/1.ico</file>
+    <file>img/4987/2.ico</file>
+    <file>img/4987/3.ico</file>
+    <file>img/4987/4.ico</file>
+    <file>img/4987/5.ico</file>
+    <file>img/4987/6.ico</file>
+    <file>img/4987/7.ico</file>
+  </qresource>
+  <qresource prefix="图标三">
+    <file>img/5305/11.ico</file>
+    <file>img/5305/12.ico</file>
+    <file>img/5305/13.ico</file>
+    <file>img/5305/14.ico</file>
+    <file>img/5305/15.ico</file>
+    <file>img/5305/16.ico</file>
+    <file>img/5305/17.ico</file>
+    <file>img/5305/18.ico</file>
+    <file>img/5305/19.ico</file>
+    <file>img/5305/20.ico</file>
+    <file>img/5305/21.ico</file>
+    <file>img/5305/22.ico</file>
+    <file>img/5305/23.ico</file>
+    <file>img/5305/24.ico</file>
+    <file>img/5305/25.ico</file>
+    <file>img/5305/26.ico</file>
+    <file>img/5305/27.ico</file>
+    <file>img/5305/28.ico</file>
+    <file>img/5305/29.ico</file>
+    <file>img/5305/30.ico</file>
+    <file>img/5305/31.ico</file>
+    <file>img/5305/32.ico</file>
+    <file>img/5305/33.ico</file>
+    <file>img/5305/34.ico</file>
+    <file>img/5305/35.ico</file>
+    <file>img/5305/36.ico</file>
+    <file>img/5305/37.ico</file>
+    <file>img/5305/38.ico</file>
+    <file>img/5305/39.ico</file>
+    <file>img/5305/40.ico</file>
+  </qresource>
+  <qresource prefix="图标四">
+    <file>img/7883/f1.ico</file>
+    <file>img/7883/f2.ico</file>
+    <file>img/7883/f3.ico</file>
+    <file>img/7883/f4.ico</file>
+    <file>img/7883/f5.ico</file>
+    <file>img/7883/f6.ico</file>
+    <file>img/7883/f7.ico</file>
+    <file>img/7883/f8.ico</file>
+    <file>img/7883/f9.ico</file>
+    <file>img/7883/f10.ico</file>
+  </qresource>
+</RCC>

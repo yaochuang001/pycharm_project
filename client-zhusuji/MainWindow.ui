@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1173</width>
+    <height>792</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout" stretch="2,1">
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="title">
+         <string>数据发送、接收</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout" stretch="7,3">
+           <item>
+            <widget class="QTextBrowser" name="textBrowser"/>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="textBrowser_3"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="title">
+         <string>数据采集、系统操作</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="7,3">
+           <item>
+            <widget class="QTextBrowser" name="textBrowser_2"/>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="textBrowser_4"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1173</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>编辑</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>工具</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>设置</string>
+    </property>
+    <addaction name="action_data"/>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_5"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_start"/>
+   <addaction name="action_stop"/>
+   <addaction name="action_get"/>
+   <addaction name="action_send"/>
+   <addaction name="action_signature"/>
+  </widget>
+  <action name="action_start">
+   <property name="icon">
+    <iconset resource="apprcc.qrc">
+     <normaloff>:/图标一/img/4250/10004.ico</normaloff>:/图标一/img/4250/10004.ico</iconset>
+   </property>
+   <property name="text">
+    <string>start</string>
+   </property>
+   <property name="toolTip">
+    <string>系统启动</string>
+   </property>
+  </action>
+  <action name="action_stop">
+   <property name="icon">
+    <iconset resource="apprcc.qrc">
+     <normaloff>:/图标一/img/4250/10005.ico</normaloff>:/图标一/img/4250/10005.ico</iconset>
+   </property>
+   <property name="text">
+    <string>stop</string>
+   </property>
+   <property name="toolTip">
+    <string>系统停止</string>
+   </property>
+  </action>
+  <action name="action_data">
+   <property name="icon">
+    <iconset resource="apprcc.qrc">
+     <normaloff>:/图标四/img/7883/f7.ico</normaloff>:/图标四/img/7883/f7.ico</iconset>
+   </property>
+   <property name="text">
+    <string>参数设置</string>
+   </property>
+   <property name="toolTip">
+    <string>系统参数设置</string>
+   </property>
+  </action>
+  <action name="action_get">
+   <property name="icon">
+    <iconset resource="apprcc.qrc">
+     <normaloff>:/图标四/img/7883/f4.ico</normaloff>:/图标四/img/7883/f4.ico</iconset>
+   </property>
+   <property name="text">
+    <string>数据采集</string>
+   </property>
+   <property name="toolTip">
+    <string>采集服务端数据</string>
+   </property>
+  </action>
+  <action name="action_send">
+   <property name="icon">
+    <iconset resource="apprcc.qrc">
+     <normaloff>:/图标四/img/7883/f6.ico</normaloff>:/图标四/img/7883/f6.ico</iconset>
+   </property>
+   <property name="text">
+    <string>数据发送</string>
+   </property>
+   <property name="toolTip">
+    <string>发送数据给服务器</string>
+   </property>
+  </action>
+  <action name="action_signature">
+   <property name="icon">
+    <iconset resource="apprcc.qrc">
+     <normaloff>:/图标二/img/4987/6.ico</normaloff>:/图标二/img/4987/6.ico</iconset>
+   </property>
+   <property name="text">
+    <string>生成签名</string>
+   </property>
+   <property name="toolTip">
+    <string>生成签名数据</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="apprcc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
